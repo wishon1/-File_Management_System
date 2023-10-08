@@ -3,7 +3,7 @@
  *
  *
  */
-void check_malloc_failure(char *space, char *array)
+void check_malloc_failure(char **space, char *array)
 {
 		perror("#memory allocation failed for token");  
 		free(space);
